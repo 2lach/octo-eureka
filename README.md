@@ -45,54 +45,33 @@ react app (som jag bootstrappade med create-react-app) och parsar datan från js
 för att köra projekten är det nödvändigt att ha node.js & npm installerat, samt en terminal/kommandotolk
 
 detta är en översikt av projektet:
-
+```
 ~/
 
 ├── README.md
-|
 ├── frontend
-|
 │   ├── README.md
-|   |
 │   ├── package-lock.json
-|   |
 │   ├── package.json
-|   |
 │   ├── public
-|   |
 │   │   ├── favicon.ico
-|   |   |
 │   │   ├── index.html
-|   |   |
 │   │   ├── manifest.json
-|   |   |
 │   │   └── output.json
-|   |
 │   ├── src
-|   |
 │   │   ├── App.css
-|   |   |
 │   │   ├── App.js
-|   |   |
 │   │   ├── App.test.js
-|   |   |
 │   │   ├── data
-|   |   |
 │   │   ├── index.css
-|   |   |
 │   │   ├── index.js
-|   |   |
 │   │   └── serviceWorker.js
-|   |
 │   └── yarn.lock
-|
 ├── move-json.js
-|
 ├── package-lock.json
-|
 ├── package.json
-|
 └── server.js 
+```
 
 
 setup:
