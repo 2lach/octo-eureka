@@ -1,3 +1,4 @@
+<!--
 ### Bakgrund:
 
 På webbplatsen entreprenor.se ska frontend göras om till en React/NextJS-lösning.
@@ -19,7 +20,7 @@ För att få reda på vilken innehållstyp en viss URL har måste man göra ett 
 #### Uppgift:
 
 Resonera kring en lösning på hur två olika URLer som är uppbyggda enligt samma mönster (https://www.entreprenor.se/{sectionPath}/{articleTitle}_{articleID}.html) ska kunna får helt olika utseenden. Om möjligt, ge kodexempel eller pseudokod.
-
+-->
 
 ## Lösning för frontend biten:
 
@@ -46,28 +47,51 @@ för att köra projekten är det nödvändigt att ha node.js & npm installerat, 
 detta är en översikt av projektet:
 
 ~/
+
 ├── README.md
+|
 ├── frontend
+|
 │   ├── README.md
+|   |
 │   ├── package-lock.json
+|   |
 │   ├── package.json
+|   |
 │   ├── public
+|   |
 │   │   ├── favicon.ico
+|   |   |
 │   │   ├── index.html
+|   |   |
 │   │   ├── manifest.json
+|   |   |
 │   │   └── output.json
+|   |
 │   ├── src
+|   |
 │   │   ├── App.css
+|   |   |
 │   │   ├── App.js
+|   |   |
 │   │   ├── App.test.js
+|   |   |
 │   │   ├── data
+|   |   |
 │   │   ├── index.css
+|   |   |
 │   │   ├── index.js
+|   |   |
 │   │   └── serviceWorker.js
+|   |
 │   └── yarn.lock
+|
 ├── move-json.js
+|
 ├── package-lock.json
+|
 ├── package.json
+|
 └── server.js 
 
 
