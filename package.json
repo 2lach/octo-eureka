@@ -1,0 +1,22 @@
+{
+  "name": "svenskt-naringsliv-test",
+  "version": "1.0.0",
+  "description": "get me some data please",
+  "main": "server.js",
+  "author": "2lach",
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "scripts": {
+    "install:FE": "cd ./frontend && npm install",
+    "start": "npm run backend & npm run frontend",
+    "backend": "node server.js",
+    "frontend": "cd frontend; npm start"
+  },
+  "dependencies": {
+    "cheerio": "latest",
+    "express": "latest",
+    "request": "latest"
+  }
+}
